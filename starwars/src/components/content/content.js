@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Item } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 const Content = (props) => {
-    const { Content, Name, HomeWorld } = props;
+    const { Content, Name, HomeWorld } = props
     return (
         <Item.Group>
             <Item>
